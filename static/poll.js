@@ -72,10 +72,10 @@ function processing(){
   $('#isProcessing').addClass('processing');
 
   if (isQuestion){
-      setTimeout(questionAppear, 5000);
+      setTimeout(questionAppear, 3000);
   }
   else {
-      setTimeout(answerAppear, 10000)
+      setTimeout(answerAppear, 7000);
   }
 }
 
